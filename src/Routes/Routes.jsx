@@ -14,23 +14,23 @@ const router =createHashRouter([
         element:<Main></Main>,
         children:[
             {
-                path:'/',
+                path:'',
                 element:<Home></Home>
             },
             {
-                path:'/about',
+                path:'about',
                 element:<About></About>
             },
             {
-               path:'/resume',
+               path:'resume',
                element:<Resume></Resume>
             },
             {
-                path:'/portfolio',
+                path:'portfolio',
                 element:<Portfolio></Portfolio>
             },
             {
-                path:'/contact',
+                path:'contact',
                 element:<Contact></Contact>
             }
         ]
