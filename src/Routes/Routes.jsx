@@ -8,6 +8,8 @@ import App from "../App";
 import Experience from "../Pages/Resume/Experience";
 import Skills from "../Pages/Resume/Skills";
 import Education from "../Pages/Resume/Education";
+import MyWork from "../Pages/Portfolio/MyWork";
+import MyService from "../Pages/Portfolio/MyService";
 
 
 
@@ -44,7 +46,17 @@ const router =createHashRouter([
             },
             {
                 path:'portfolio',
-                element:<Portfolio></Portfolio>
+                element:<Portfolio></Portfolio>,
+                children:[
+                    {
+                        path:'/portfolio/myWork',
+                        element:<MyWork></MyWork>
+                    },
+                    {
+                        path:'/portfolio/myService',
+                        element:<MyService></MyService>
+                    }
+                ]
             },
             {
                 path:'contact',

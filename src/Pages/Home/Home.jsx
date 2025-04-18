@@ -35,7 +35,7 @@ Eager to gain real-world experience and grow as a frontend developer
             </div>
         </div>
     </div>
-    <div className=" mx-auto mb-6">
+    <div className=" mx-auto lg:mx-0 mb-6">
         <img
             className=" w-[300px]  lg:h-[400px] lg:w-[400px] border-4 border-[#1fcaff] shadow-xl hover:shadow-[0px_0px_20px_5px_#1fcaff] rounded-full bg-gradient-to-t from-[#1fcaff] to-[#14272d]"
             src={img}
