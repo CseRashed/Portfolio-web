@@ -6,6 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { CircularProgressbar } from 'react-circular-progressbar';
 import ProgressBar from '@ramonak/react-progress-bar';
+import Service from '../Portfolio/Service';
 
 export default function About() {
   return (
@@ -50,25 +51,25 @@ Eager to gain real-world experience and grow as a frontend developer
 <div className='mt-[100px] flex flex-col lg:flex-row  gap-12 justify-between px-2'>
   <div className='space-y-4'>
     <h3 className='text-white text-2xl font-medium mb-10'>Average Skills:</h3>
-   <div className='w-[450px]'>
+   <div className='w-[430px]'>
     <p className='text-white font-bold'>html</p>
     <ProgressBar completed={100} 
     bgColor='#2896b2'
     animateOnRender={true}/>
    </div>
-   <div className='w-[450px]'>
+   <div className='w-[430px]'>
     <p className='text-white font-bold'>Css</p>
     <ProgressBar completed={90} 
     bgColor='#2896b2'
     animateOnRender={true}/>
    </div>
-   <div className='w-[450px]'>
+   <div className='w-[430px]'>
     <p className='text-white font-bold'>JavaScript</p>
     <ProgressBar completed={70} 
     bgColor='#2896b2'
     animateOnRender={true}/>
    </div>
-   <div className='w-[450px]'>
+   <div className='w-[430px]'>
     <p className='text-white font-bold'>React</p>
     <ProgressBar completed={80} 
     bgColor='#2896b2'
@@ -77,20 +78,7 @@ Eager to gain real-world experience and grow as a frontend developer
   </div>
   <div>
     <h2 className='text-2xl font-medium text-white mb-12 '>MyService</h2>
-    <div className='flex mx-auto flex-col lg:flex-row gap-4'>
-      <div className='lg:w-[320px] w-[460px] lg:h-[200px] h-[250px] border p-2 rounded-xl text-center'>
-        <h1 className='text-xl font-medium text-white mb-4'>UI/UX</h1>
-        <p className='text-white font-medium'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla.</p>
-      </div>
-      <div className='lg:w-[320px] w-[460px] lg:h-[200px] h-[250px] border p-2 rounded-xl text-center'>
-        <h1 className='text-xl font-medium text-white mb-4'>Web Design</h1>
-        <p className='text-white font-medium'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla.</p>
-      </div>
-      <div className='lg:w-[320px] w-[460px] lg:h-[200px] h-[250px] border p-2 rounded-xl text-center'>
-        <h1 className='text-xl font-medium text-white mb-4'>Web Development</h1>
-        <p className='text-white font-medium'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla.</p>
-      </div>
-    </div>
+   <Service></Service>
   </div>
 </div>
   </div>
