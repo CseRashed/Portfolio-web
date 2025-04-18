@@ -5,6 +5,9 @@ import Resume from "../Pages/Resume/Resume";
 import Portfolio from "../Pages/Portfolio/Portfolio";
 import Contact from "../Pages/Contact/Contact";
 import App from "../App";
+import Experience from "../Pages/Resume/Experience";
+import Skills from "../Pages/Resume/Skills";
+import Education from "../Pages/Resume/Education";
 
 
 
@@ -23,7 +26,21 @@ const router =createHashRouter([
             },
             {
                path:'resume',
-               element:<Resume></Resume>
+               element:<Resume></Resume>,
+               children:[
+                   {
+                       path:'/resume/experience',
+                       element:<Experience></Experience>
+                   },
+                   {
+                       path:'/resume/skills',
+                       element:<Skills></Skills>
+                   },
+                   {
+                       path:'/resume/education',
+                       element:<Education></Education>
+                   }
+               ]
             },
             {
                 path:'portfolio',
