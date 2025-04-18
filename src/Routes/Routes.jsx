@@ -1,17 +1,17 @@
 import { createHashRouter } from "react-router";
-import Main from "../Main/Main";
 import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import Resume from "../Pages/Resume/Resume";
 import Portfolio from "../Pages/Portfolio/Portfolio";
 import Contact from "../Pages/Contact/Contact";
+import App from "../App";
 
 
 
 const router =createHashRouter([
     {
         path:'/',
-        element:<Main></Main>,
+        element:<App></App>,
         children:[
             {
                 path:'',
