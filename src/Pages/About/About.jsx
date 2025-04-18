@@ -51,28 +51,28 @@ Eager to gain real-world experience and grow as a frontend developer
 <div className='mt-[100px] flex flex-col lg:flex-row  gap-12 justify-between px-2'>
   <div className='space-y-4'>
     <h3 className='text-white text-2xl font-medium mb-10'>Average Skills:</h3>
-   <div className='w-[430px]'>
+   <div className='w-[400px]'>
     <p className='text-white font-bold'>html</p>
     <ProgressBar completed={100} 
-    bgColor='#2896b2'
+    bgColor='#5b9dda'
     animateOnRender={true}/>
    </div>
-   <div className='w-[430px]'>
+   <div className='w-[400px]'>
     <p className='text-white font-bold'>Css</p>
     <ProgressBar completed={90} 
     bgColor='#2896b2'
     animateOnRender={true}/>
    </div>
-   <div className='w-[430px]'>
+   <div className='w-[400px]'>
     <p className='text-white font-bold'>JavaScript</p>
     <ProgressBar completed={70} 
-    bgColor='#2896b2'
+    bgColor='#d0d25c'
     animateOnRender={true}/>
    </div>
-   <div className='w-[430px]'>
+   <div className='w-[400px]'>
     <p className='text-white font-bold'>React</p>
     <ProgressBar completed={80} 
-    bgColor='#2896b2'
+    bgColor='#888aca'
     animateOnRender={true}/>
    </div>
   </div>
